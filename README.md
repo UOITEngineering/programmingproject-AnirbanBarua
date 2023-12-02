@@ -12,12 +12,13 @@ This application has a voice integration feature which reads the weather informa
 
 ## Architecture Diagram
 ![arc drawio](https://github.com/UOITEngineering/programmingproject-AnirbanBarua/assets/148647000/49896d56-733a-47d0-b1e2-b26da5a7a806)
-*User Input: Accepts input from the user (city name and units).
-*Input Processing: Processes user input and initiates the weather retrieval process.
-*Coordinates Processing: Uses Geocoding to obtain latitude and longitude based on the city name.
-*Weather API Request: Sends a request to the OpenWeatherMap API to retrieve weather data.
-*Weather Data Processing: Processes the weather data, including temperature conversion and music recommendation.
-*Text-to-Speech & Music Recommendation: Generates text-to-speech for weather information and recommends music based on the weather.
+
+* User Input: Accepts input from the user (city name and units).
+* Input Processing: Processes user input and initiates the weather retrieval process.
+* Coordinates Processing: Uses Geocoding to obtain latitude and longitude based on the city name.
+* Weather API Request: Sends a request to the OpenWeatherMap API to retrieve weather data.
+* Weather Data Processing: Processes the weather data, including temperature conversion and music recommendation.
+* Text-to-Speech & Music Recommendation: Generates text-to-speech for weather information and recommends music based on the weather.
 
 ## Executing the Application
 ### Dependencies
