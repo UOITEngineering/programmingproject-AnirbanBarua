@@ -17,7 +17,7 @@ This application has a voice integration feature which reads the weather informa
 
 * Windows (Any version)
 * WSL (Windoows Subsystem for linux)
-* Ubuntu 20.04
+* Ubuntu 20.04.6 LTS
 
 ### Installing Libraries
 Install the following libraries using ubuntu terminal:
@@ -26,7 +26,6 @@ Install the following libraries using ubuntu terminal:
 ```
 sudo apt install python3-gtts
 ```
-
 * Installing “playsound”:
 ```
 pip3 install playsound==1.2.2
@@ -43,52 +42,27 @@ sudo apt install mpv
 ```
 sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
 ```
+### Download Files
+Download all the files and put them in a one folder.
 
-
-
-
-
-
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
+### Run
+Go to the directory where the files are saved using the ubuntu terminal.
+Run the main.py file using the following command:
 ```
-code blocks for commands
+python3 main.py
 ```
+After running it will show the following output. Just type in the city name and unit.
+![input](https://github.com/UOITEngineering/programmingproject-AnirbanBarua/assets/148647000/2d22eb0b-e204-41f3-a2f0-0b3d511e8c54)
+### Output
+Text output will look like this.
+![output](https://github.com/UOITEngineering/programmingproject-AnirbanBarua/assets/148647000/96ce32d9-bb5d-4002-8006-e28508e8e8e8)
+## Challenges
+After executing the application, the voice part sometimes may not work. Solution is to install the Gstreamer library again.
+## Future Enhancements
+* Adding 5 days weather forcast feature
+* Design a GUI using tkinter library.
+## Author
+Anirban Barua (100920756)
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
