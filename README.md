@@ -6,19 +6,49 @@ Voice Integrated Weather App
 ## Description
 
 This is a weather app that informs user about the current weather condition using text and voice. It also recommends what type of clothes to wear and suggests what type of music to listen.
-This application was developed using Python programming language
+This application was developed using Python programming language.
+Weather app is an essential application to have, specially during the winter times because it provides a real time weather data which helps users to plan their activites.
+This application has a voice integration feature which reads the weather information to the users so that they don't have to read the information by themselves. 
 
-## Getting Started
+## Architecture Diagram
 
+## Executing the Application
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Windows (Any version)
+* WSL (Windoows Subsystem for linux)
+* Ubuntu 20.04
 
-### Installing
+### Installing Libraries
+Install the following libraries using ubuntu terminal:
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Installing “gtts”:
+```
+sudo apt install python3-gtts
+```
+
+* Installing “playsound”:
+```
+pip3 install playsound==1.2.2
+```
+* Installing “geopy”:
+```
+sudo apt install python3-geopy
+```
+* Installing “mpv”:
+```
+sudo apt install mpv
+```
+* Installing “Gstreamer”:
+```
+sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
+```
+
+
+
+
+
+
 
 ### Executing program
 
