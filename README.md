@@ -24,7 +24,7 @@ This application has a voice integration feature which reads the weather informa
 ### Dependencies
 
 * Windows (Any version)
-* WSL (Windoows Subsystem for linux)
+* WSL (Windows Subsystem for linux)
 * Ubuntu 20.04.6 LTS
 
 ### Installing Libraries
